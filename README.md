@@ -11,12 +11,12 @@ Este repositorio contiene los materiales, ejemplos y ejercicios del curso **"Int
 
 | Sesión | Tema | Enlace |
 |--------|------|--------|
-| 0 | Ciclo de vida de un proyecto ML | [notebooks/sesion_0_lifecycle.ipynb](notebooks/sesion_0_lifecycle.ipynb) |
-| 1 | Fundamentos de desarrollo para ML con Python | [notebooks/sesion_1_intro.ipynb](notebooks/sesion_1_intro.ipynb) |
-| 2 | Pipeline de entrenamiento con buenas prácticas | [notebooks/sesion_2_pipeline.ipynb](notebooks/sesion_2_pipeline.ipynb) |
-| 3 | Gestión de experimentos con MLflow | [notebooks/sesion_3_mlflow.ipynb](notebooks/sesion_3_mlflow.ipynb) |
-| 4 | Introducción al despliegue en AWS SageMaker | [notebooks/sesion_4_sagemaker.ipynb](notebooks/sesion_4_sagemaker.ipynb) |
-| 5 | Alternativas de despliegue y buenas prácticas de MLOps | [notebooks/sesion_5_mlops.ipynb](notebooks/sesion_5_mlops.ipynb) |
+| 0 | Ciclo de vida de un proyecto ML | [notebooks/0_lifecycle.ipynb](notebooks/0_lifecycle.ipynb) |
+| 1 | Fundamentos de desarrollo para ML con Python | [notebooks/1_fundamentos.ipynb](notebooks/1_fundamentos.ipynb) |
+| 2 | Entornos virtuales en Python | [notebooks/2_entornos_virtuales.ipynb](notebooks/2_entornos_virtuales.ipynb) |
+| 3 | Pipeline de entrenamiento con buenas prácticas | [notebooks/3_pipeline.ipynb](notebooks/3_pipeline.ipynb) |
+| 4 | Gestión de experimentos con MLflow | [notebooks/4_mlflow.ipynb](notebooks/4_mlflow.ipynb) |
+
 
 ## 📁 Estructura del repositorio
 
