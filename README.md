@@ -34,12 +34,15 @@ Este repositorio contiene los materiales, ejemplos y ejercicios del curso **"Int
 ## 🧰 Requisitos
 
 - Python 3.10+
-- [Poetry](https://python-poetry.org/)
+- Virtualización de entornos (virtualenv)
 
 ## 📦 Instalación rápida
 
 ```bash
 git clone https://github.com/hrodriguezgi/introduccion_ml.git
 cd introduccion_ml
-poetry install
+python3.10 -m pip install virtualenv
+python3.10 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
