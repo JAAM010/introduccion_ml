@@ -1,4 +1,5 @@
 .venv
+.env
 poetry.lock
 .DS_Store
 .$*.bkp
@@ -6,4 +7,6 @@ poetry.lock
 __pycache__
 *.pyc
 notebooks/datasets/*
+datasets
+logs
 *.pdf
