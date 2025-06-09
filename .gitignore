@@ -1,5 +1,4 @@
 .venv
-.env
 poetry.lock
 .DS_Store
 .$*.bkp
