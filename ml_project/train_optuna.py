@@ -99,7 +99,7 @@ def main():
         )
         study.optimize(lambda trial: objective(trial, parent_run_id), n_trials=20, n_jobs=2)
 
-        logger.info("🏁 Búsqueda completada.")
+        logger.info("Búsqueda completada.")
         logger.info(f"Mejores hiperparámetros: {study.best_params}")
         mlflow.log_params(study.best_params)
 
