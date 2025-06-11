@@ -37,7 +37,7 @@ def main():
 
     fecha = datetime.now().strftime("%Y%m%d_%H%M%S")
 
-    with mlflow.start_run(run_name=f"train_run_{fecha}", nested=True):
+    with mlflow.start_run(run_name=f"train_run_{fecha}"):
         logger.info("Iniciando el seguimiento del experimento en Mlflow...")
 
         logger.info("Cargando datos...")
@@ -84,6 +84,7 @@ def main():
         # Guardar pipeline completo
         os.makedirs("models", exist_ok=True)
         joblib.dump(pipeline, "models/modelo_entrenado.pkl")
+
 
 
 if __name__ == "__main__":
